@@ -11,12 +11,24 @@
 |
 */
 
+use App\Staff;
+use App\Photo;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/test', function(){
 
-    echo "Test TEST test";
+    echo "Test";
+
+});
+
+Route::get('/create', function(){
+
+    $staff = Staff::find(5);
+
+    $staff->photos()->create(['path'=>'example.jpg']);
+
 
 });
