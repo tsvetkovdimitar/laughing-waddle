@@ -26,9 +26,9 @@ Route::get('/test', function(){
 
 Route::get('/create', function(){
 
-    $staff = Staff::find(5);
+    $staff = Staff::find(6);
 
-    $staff->photos()->create(['path'=>'example.jpg']);
+    $staff->photos()->create(['path'=>'logo.jpg']);
 
 
 });
@@ -62,5 +62,25 @@ Route::get('/delete', function(){
     $staff = Staff::findOrFail(5);
 
     $staff->photos()->delete();
+
+});
+
+Route::get('/assign', function(){
+
+    $staff = Staff::findOrFail(6);
+
+    $photo = Photo::findOrFail(6);
+
+    $staff->photos()->save($photo);
+
+});
+
+Route::get('/un-assign', function(){
+
+    $staff = Staff::findOrFail(6);
+
+//    $photo = Photo::findOrFail(6);
+
+    $staff->photos()->whereId(6)->update(['imageable_id'=>1, 'imageable_type'=>'']);
 
 });
