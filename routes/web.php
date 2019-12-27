@@ -32,3 +32,15 @@ Route::get('/create', function(){
 
 
 });
+
+Route::get('/read', function(){
+
+    $staff = Staff::findOrFail(5);
+
+    foreach ($staff->photos as $photo){
+
+        return $photo->path;
+
+    }
+
+});

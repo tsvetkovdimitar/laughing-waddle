@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b17763fa-7a28-41fa-9afc-8c70580913a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Staff.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Staff.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +198,8 @@
       <workItem from="1577190900782" duration="2874000" />
       <workItem from="1577206732374" duration="312000" />
       <workItem from="1577391259470" duration="13000" />
-      <workItem from="1577391280195" duration="6165000" />
+      <workItem from="1577391280195" duration="6292000" />
+      <workItem from="1577469468748" duration="812000" />
     </task>
     <servers />
   </component>
@@ -227,10 +227,10 @@
       <screen x="0" y="27" width="2560" height="1332" />
     </state>
     <state x="522" y="153" key="SettingsEditor/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1577191704024" />
-    <state x="773" y="443" key="com.intellij.ide.util.TipDialog" timestamp="1577391280683">
+    <state x="773" y="443" key="com.intellij.ide.util.TipDialog" timestamp="1577470571621">
       <screen x="0" y="27" width="2560" height="1332" />
     </state>
-    <state x="773" y="443" key="com.intellij.ide.util.TipDialog/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1577391280683" />
+    <state x="773" y="443" key="com.intellij.ide.util.TipDialog/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1577470571621" />
     <state x="1010" y="513" width="529" height="357" key="webDeployment.PermissionsDialog" timestamp="1577189806374">
       <screen x="0" y="27" width="2560" height="1332" />
     </state>
